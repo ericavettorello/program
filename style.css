@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: rgb(218, 218, 8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sallyface{
+    display:flex;
+    flex-direction: row;
+}
+.header__text{
+    margin-right: 20px;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.list__item{
+    margin-right: 20px;
+}
+.offer__text{
+    display: flex;
+    justify-content: center;
+}
+
+.offer__text--red{
+    color: rgb(137, 4, 4);
+}
+.offer__text--white{
+    color: white;
+}
+.offer__text--big{
+    font-size: 36px;
+}
+.offer__text--redbackground{
+    background-color: rgb(137, 4, 4);
+}
+.list__image{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+.hidden{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.t-shirts{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.t-shirts__item-card{
+    padding: 40px;
+}
+
+.card__image{
+    height: 300px;
+    width: 250px;;
+}
+
+.card__title{
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding: 10px;
+}
+
+.card__price_size{
+    display: flex;
+    justify-content: center;
+}
+.card__option{
+    border: lightgrey;
+}
+/* .card__price{
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+} */
+.card__old_price{
+    font-size: 15px;
+    text-decoration: line-through;
+    color: grey;
+}
+.card__new_price{
+    font-size: 20px;
+    font-style: inherit;
+    color: darkred;
+}
+.card__button{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    border: darkred;
+    background-color: darkred;
+    color: whitesmoke;
+}
+.card__amount{
+    display: flex;
+    justify-content: center;
+}
+
+.t-shirts__list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
