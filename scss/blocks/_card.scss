@@ -1,0 +1,48 @@
+.card__image{
+    height: 300px;
+    width: 250px;;
+}
+
+.card__title{
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding: 10px;
+}
+
+.card__price_size{
+    display: flex;
+    justify-content: center;
+}
+.card__option{
+    border: lightgrey;
+}
+/* .card__price{
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+} */
+.card__old_price{
+    font-size: 15px;
+    text-decoration: line-through;
+    color: grey;
+}
+.card__new_price{
+    font-size: 20px;
+    font-style: inherit;
+    color: darkred;
+}
+
+.card__button_wrapper{
+   text-align: center;
+}
+
+.card__button{
+    border: darkred;
+    background-color: darkred;
+    color: whitesmoke;
+}
+.card__amount{
+    display: flex;
+    justify-content: center;
+}

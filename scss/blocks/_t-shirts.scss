@@ -1,0 +1,17 @@
+.t-shirts{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.t-shirts__item-card{
+    padding: 40px;
+}
+.t-shirts__list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+

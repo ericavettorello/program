@@ -1,0 +1,43 @@
+.header{
+    background-color: rgb(218, 218, 8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sallyface{
+    display:flex;
+    flex-direction: row;
+}
+.header__text{
+    margin-right: 20px;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.list__item{
+    margin-right: 20px;
+}
+.offer__text{
+    display: flex;
+    justify-content: center;
+}
+
+.offer__text--red{
+    color: rgb(137, 4, 4);
+}
+.offer__text--white{
+    color: white;
+}
+.offer__text--big{
+    font-size: 36px;
+}
+.offer__text--redbackground{
+    background-color: rgb(137, 4, 4);
+}
+.list__image{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}

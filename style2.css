@@ -104,10 +104,12 @@
     font-style: inherit;
     color: darkred;
 }
+
+.card__button_wrapper{
+   text-align: center;
+}
+
 .card__button{
-    display: flex;
-    justify-content: center;
-    margin: 10px;
     border: darkred;
     background-color: darkred;
     color: whitesmoke;
@@ -121,4 +123,8 @@
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+
 }
+
