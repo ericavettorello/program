@@ -18,6 +18,7 @@
                 <p class="offer__text offer__text--big offer__text--red">499 <sup>руб</sup> </p>
                 <p class="offer__text offer__text--redbackground offer__text--white ">Почему так дёшево?</p>
           </div>
+         </div>
            
         
         <ul class="header__list list">
@@ -378,7 +379,41 @@
             </div>
             <p class="alertbar__text">В корзине пусто!</p>
         </section>
-    
+
+        <form  class="form" action="post">
+            <h2 class="form__title">Оформление заказа</h2>
+            <ul class="form__list">
+                <li class="form__item">
+                    <label class="form__label" for="name">Имя</label>
+                    <input class="form__input" type="text" id="name">
+                </li>
+                <li class="form__item">
+                    <label class="form__label" for="surname">Фамилия</label>
+                    <input class="form__input" type="text" id="surname">
+                </li>
+                <li class="form__item">
+                    <label class="form__label" for="patronymic">Отчество</label>
+                    <input class="form__input" type="text" id="patronymic">
+                </li>
+                <li class="form__item">
+                    <label class="form__label" for="email">Эл.Почта</label>
+                    <input class="form__input" type="email" id="email">
+                </li>
+                <li class="form__item">
+                    <label class="form__label" for="phone">Телефон</label>
+                    <input class="form__input" type="number" id="phone">
+                </li>
+            </ul>
+
+                <p class="form__payment">Оплата онлайн</p> 
+                <div class="form__button_wrapper">
+                    <input class="form__button" type="button" value="Отправить заказ">
+                </div>   
+                
+        </form>
+
+   
+   
     </main>
 </body>
 </html>

@@ -1,4 +1,10 @@
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -73,6 +79,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-top: 20px;
 }
 
 .t-shirts__item-card {
@@ -144,7 +151,9 @@
   border: 1px solid rgba(211, 211, 211, 0.57);
   height: 60px;
   background-color: rgba(211, 211, 211, 0.57);
-  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .raffle {
@@ -164,6 +173,10 @@
   font-weight: lighter;
 }
 
+.raffle__list {
+  list-style-type: none;
+}
+
 .alertbar {
   padding: 10px 0px 10px 20px;
 }
@@ -179,4 +192,36 @@
   background-color: rgb(239, 239, 11);
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form__payment {
+  color: rgb(0, 118, 0);
+}
+
+.form__payment::after {
+  content: "";
+  width: 50vw;
+  height: 5px;
+  background-color: rgb(161, 160, 160);
+  display: block;
+}
+
+.form__button_wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form__button {
+  background-color: rgb(0, 118, 0);
+  border: 1px solid rgb(0, 118, 0);
+  color: antiquewhite;
+  height: 40px;
+  width: 175px;
 }/*# sourceMappingURL=style.css.map */
